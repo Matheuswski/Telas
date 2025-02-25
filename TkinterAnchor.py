@@ -26,6 +26,6 @@ lb3.pack(anchor="w")# SEMPRE QUE NÃO UTILIZO A OPÇÃO side, ELE SEMPRE SERA TO
 
 #lb4.pack(side=BOTTOM, anchor="sw")
 
-lb4.pack(anchor="E")
+lb4.pack(anchor="e")
 
 i.mainloop()
