@@ -1,4 +1,5 @@
 from tkinter import*
+
 i=Tk()
 i.title("Programa financeiro")
 i.geometry('980x720+250+30')
@@ -23,6 +24,8 @@ lb2.pack(side="left")
 lb3.pack(anchor="w")# SEMPRE QUE NÃO UTILIZO A OPÇÃO side, ELE SEMPRE SERA TOPO
 #lb4.pack(anchor="w")# SEMPRE QUE NÃO UTILIZO A OPÇÃO side, ELE SEMPRE SERA TOPO
 
-lb4.pack(side=BOTTOM, anchor="sw")
+#lb4.pack(side=BOTTOM, anchor="sw")
+
+lb4.pack(anchor="E")
 
 i.mainloop()
